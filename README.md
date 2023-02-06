@@ -17,10 +17,6 @@ Esse projeto é uma mistura de dois Masterclass, o #08 que usamos estratégias d
 
 <br>
 
-<p align="center">
-  <img alt="rocketpay" src=".github/project.png" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
