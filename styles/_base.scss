@@ -1,0 +1,56 @@
+$primary-color: #7159c1;
+$transparent-white: #ffffff26;
+$gray-color: #4b4b4b;
+$white-color: #fff;
+
+@mixin boundaries($isAuto) {
+  width: 90%;
+  max-width: 980px;
+
+  @if $isAuto == true {
+    margin: auto;
+  }
+}
+
+@mixin flexCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  font-size: 62.5%;
+  /* Para cada 1rem no código abaixo, será considerado 10px */
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Source Sans Pro";
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6rem;
+  /* 1.6rem = 16px */
+}
+
+h2 {
+  color: $gray-color;
+  font-size: 3.9rem;
+  line-height: 4.6rem;
+}
+
+h3 {
+  color: $gray-color;
+  font-size: 2rem;
+  line-height: 3.8rem;
+}

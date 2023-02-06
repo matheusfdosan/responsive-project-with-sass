@@ -1,0 +1,44 @@
+/*===============
+HEADER
+==================*/
+
+header {
+  background-color: $primary-color;
+
+  .container {
+    @include boundaries(true);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  img {
+    width: 150px;
+    margin-left: 20px;
+    padding: 15px 0;
+  }
+
+  nav {
+    ul {
+      display: flex;
+
+      li {
+        list-style: none;
+
+        a {
+          text-decoration: none;
+          color: $white-color;
+          text-transform: uppercase;
+          font-size: 1.6rem;
+          padding: 24px;
+          transition: all 250ms linear 0s;
+
+          &:hover {
+            background: $transparent-white;
+          }
+        }
+      }
+    }
+  }
+}
