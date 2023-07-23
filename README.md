@@ -17,6 +17,12 @@ Esse projeto é uma mistura de dois Masterclass, o #08 que usamos estratégias d
 
 <br>
 
+<p align="center">
+  <img alt="preview" src=".github/preview.png" width="100%">
+</p>
+
+<br>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
